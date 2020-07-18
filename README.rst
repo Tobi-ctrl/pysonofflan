@@ -72,6 +72,7 @@ Features
 * Discover all devices on local network
 * Read device state
 * Switch device ON/OFF
+* Choose the channel to switch; Counting from 0
 * Listen for state changes announced by the device (e.g. by physical switch)
 * Activate inching/momentary device, with variable ON time (e.g. 1s)
 
@@ -96,6 +97,7 @@ Command-Line Usage
 
     Options:
       --host TEXT          IP address or hostname of the device to connect to.
+      --outlet TEXT        Outlet to switch (for multi switch).
       --device_id TEXT     Device ID of the device to connect to.
       --inching TEXT       Number of seconds of "on" time if this is an
                            Inching/Momentary switch.
